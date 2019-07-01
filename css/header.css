@@ -30,6 +30,9 @@ a:hover{
     .w-lg-13{
         width: 13%;
     }
+    .bg-lg-white{
+        background-color: #ffffff;
+    }
     .border-lg-right {
         border-right: 1px solid #dee2e6 !important;
     }
@@ -38,18 +41,55 @@ a:hover{
     .w-md-100{
         width: 100%;
     }
+    .w-md-60{
+        width: 60%;
+    }
     .border-md-right {
         border-right: 1px solid #dee2e6 !important;
     }
     .border-md-right-0 {
         border-right: 0;
     }
+    .bg-md-000{
+        background-color: #000;
+    }
+    .container {
+        max-width: 960px;
+    }
 }
 @media (max-width:767px){
     .border-sm-right-0{
         border-right: 0;
     }
+
     .w-sm-100{
         width: 100%;
     }
+    .w-sm-65{
+        width: 65%;
+    }
+    .bg-sm-000{
+        background-color: #000;
+    }
+    .container {
+        max-width: 730px;
+    }
+}
+
+.logo-center-a div{
+    float: left;
+    border-right:1px solid #333;
+    padding: 8px 40px 8px 30px;
+    margin-top: 15px;
+}
+.logo-center-a>div>a:hover{
+    color: #e29216;
+}
+.logo-right-btn>a{
+    padding: 15px 38px; 
+    border-radius: 5px;
+}
+.logo-right-btn>a:hover{
+    background-color:orange;
+    color:#000;
 }
