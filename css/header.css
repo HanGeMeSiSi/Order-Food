@@ -23,6 +23,21 @@ a:hover{
 .header-center-img:hover{
 
 }
+.top-nav-menu + div{
+    width: 210px;
+    height: 200px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    background: #fffffe;
+    z-index: 1001;
+    border-right: 2px solid #c0adadaf;
+    border-bottom: 2px solid #c0adadaf;
+}
+.top-nav-menu:hover + div{
+    display: block;
+}
 .line-height-30{
     line-height: 30px;
 }
@@ -93,3 +108,37 @@ a:hover{
     background-color:orange;
     color:#000;
 }
+/* 设置顶部导航栏div中的属性 */
+.top-nav-div ul{
+    margin-top:2px; 
+    height: 75%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    padding-right: 12px; 
+    padding-left: 12px; 
+}
+.top-nav-div ul li{
+    border-bottom: 1px solid #dee2e6;
+    margin-top: 5%;
+    
+}
+/* 顶部导航栏鼠标移入后展开的div中的文字样式 */
+.top-nav-div ul li a{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+}
+.top-nav-div ul li a:hover{
+    color: #f00;
+}
+.right-fixed-div{
+    width: 320px;
+    min-height: 800px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1020;
+    background-color: #000;
+}
+   
