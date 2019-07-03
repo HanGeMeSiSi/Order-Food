@@ -100,6 +100,14 @@ a:hover{
 .logo-center-a>div>a:hover{
     color: #e29216;
 }
+.logo-sm-btn>a{
+    padding: 12px 30px; 
+    border-radius: 5px;
+}
+.logo-sm-btn>a:hover{
+    background-color:#f00;
+    color:#fff;
+}
 .logo-right-btn>a{
     padding: 15px 38px; 
     border-radius: 5px;
@@ -141,4 +149,81 @@ a:hover{
     z-index: 1020;
     background-color: #000;
 }
-   
+.right-fixed-div>div{
+    width: 70%;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.a-hover-org:hover{
+    color:orange !important;
+}
+body{
+    background: url(../images/topbg.jpg);
+}
+.section-top-ss{
+    text-shadow: 0 5px 0 rgba(0,0,0,.38);
+    font-size: 50px;
+    color:#fff;
+    font-family: Poppins;
+    font-weight: 700;
+}
+.section-top-ss>div>span:first-child,.section-top-ss>div>span:nth-child(3),.section-top-ss>div>span:last-child{
+    font-family: Great Vibes;
+    font-size: 60px;
+    font-weight: normal;
+}
+/* 响应式的小钢组成的小按钮 */
+.nav-mobile-button {
+    position: relative;
+    float: right;
+    padding: 7px 9px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: #ffbe00; 
+}
+.nav-mobile-button .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0; 
+}
+.nav-mobile-button .icon-bar {
+    display: block;
+    margin-top: 2px;
+    width: 15px;
+    height: 2px;
+    background: #000;
+    border-radius: 2px; 
+}
+.nav-mobile-button:hover{
+    background-color: #f00; 
+    border: 0;
+}
+.nav-mobile-button:hover .icon-bar{
+    background-color: #fff;
+}
+.section-top-logo li div:first-child{
+    width: 82px;
+    height: 82px;
+    position: relative;
+}
+.section-top-logo li {
+    width: 20%;
+    height: 82px;
+}
+.section-top-logo li img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
