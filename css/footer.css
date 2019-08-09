@@ -1,0 +1,90 @@
+@media (min-width:992px){
+    .top-menu-right{margin-left: -80px;}
+}  
+.top-menu-right>p{
+    font-size: 15px;
+    line-height: 27px;
+    font-family: "lato";
+}
+.phone-logo{
+    position:absolute;
+    top:-127px;
+    left: 80px;
+}
+.border-bottom-last{border-bottom: 1px solid #323232;}
+.top-menu{
+    margin-top: 150px;
+    background: #ea1b25 url(../images/resource/clouds.png) no-repeat 0 190%;
+}
+.nr-section{
+    padding-top: 100px;
+}
+.nr-section>div>h5{margin-bottom: 20px;}
+.nr-section>div>ul{padding-left: 15px;}
+.nr-section>div>ul>li{
+    margin-top: 10px;
+    list-style-image:url(../images/jietu/images/images/logo\(2\)_03.png);
+    list-style-position:outside;
+}
+.nr-section>div:last-child>ul{padding-left: 20px;}
+.nr-section>div:last-child>ul>li{
+    position: relative;
+    margin-top: 25px;
+    list-style: none;
+}
+.nr-section>div:last-child>ul>li>span{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: -25px;
+}
+.nr-section>div:last-child>ul>li:nth-child(1)>span{
+    background: #1b1b1b url(../images/jietu/images/images/22222_03.png) no-repeat;
+    top: 5px;
+}
+.nr-section>div:last-child>ul>li:nth-child(2)>span{
+    background: #1b1b1b url(../images/jietu/images/images/logo\(2\)_10.png) no-repeat;
+    top: 3px
+}
+.nr-section>div:last-child>ul>li:nth-child(3)>span{
+    background: #1b1b1b url(../images/jietu/images/images/22222_06.png) no-repeat;
+    top: 3px;
+    width:22px;
+}
+.nr-section>div{margin-bottom: 50px;}
+.nr-section>div a:hover{color: #f00;}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #999;
+}
+.nr-section>div:first-child>p{
+    width: 100%;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+}
+.nr-section>div~div a{
+    color:#999;
+}
+.nr-section-middle-small-logo{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.nr-section-middle-small-logo>li{
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    background-color: #303030;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.nr-section-middle-small-logo>li:hover{
+    background-color: #f00;
+}

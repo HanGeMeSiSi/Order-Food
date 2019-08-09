@@ -23,7 +23,7 @@ a:hover{
 .header-center-img:hover{
 
 }
-.top-nav-menu + div{
+.top-nav-menu .top-nav-div{
     width: 210px;
     height: 200px;
     display: none;
@@ -35,61 +35,13 @@ a:hover{
     border-right: 2px solid #c0adadaf;
     border-bottom: 2px solid #c0adadaf;
 }
-.top-nav-menu:hover + div{
+.top-nav-menu:hover .top-nav-div{
     display: block;
 }
 .line-height-30{
     line-height: 30px;
 }
-@media (min-width: 992px){
-    .w-lg-13{
-        width: 13%;
-    }
-    .bg-lg-white{
-        background-color: #ffffff;
-    }
-    .border-lg-right {
-        border-right: 1px solid #dee2e6 !important;
-    }
-}
-@media (min-width:768px) and (max-width:991px){
-    .w-md-100{
-        width: 100%;
-    }
-    .w-md-60{
-        width: 60%;
-    }
-    .border-md-right {
-        border-right: 1px solid #dee2e6 !important;
-    }
-    .border-md-right-0 {
-        border-right: 0;
-    }
-    .bg-md-000{
-        background-color: #000;
-    }
-    .container {
-        max-width: 960px;
-    }
-}
-@media (max-width:767px){
-    .border-sm-right-0{
-        border-right: 0;
-    }
 
-    .w-sm-100{
-        width: 100%;
-    }
-    .w-sm-65{
-        width: 65%;
-    }
-    .bg-sm-000{
-        background-color: #000;
-    }
-    .container {
-        max-width: 730px;
-    }
-}
 
 .logo-center-a div{
     float: left;
@@ -117,6 +69,9 @@ a:hover{
     color:#000;
 }
 /* 设置顶部导航栏div中的属性 */
+.top-nav-div{
+    display:none;
+}
 .top-nav-div ul{
     margin-top:2px; 
     height: 75%;
@@ -158,6 +113,10 @@ a:hover{
 .a-hover-org:hover{
     color:orange !important;
 }
+<<<<<<< HEAD
+
+
+=======
 body{
     background: url(../images/topbg.jpg);
 }
@@ -227,3 +186,4 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+>>>>>>> 7845b16e7f772f7e7652e064cb91b79a4cfcf9bd

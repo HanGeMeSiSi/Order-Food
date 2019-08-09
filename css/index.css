@@ -1,0 +1,400 @@
+.horseman{
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+.section-top-logo>div div:first-child{
+    width: 5.12rem;
+    height: 5.12rem;
+    position: relative;
+}
+.section-top-logo>li {
+    width: 20%;
+    height: 82px;
+}
+.section-top-logo>div img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.section-top-ss>div>span:first-child,.section-top-ss>div>span:nth-child(3),.section-top-ss>div>span:last-child{
+    font-family: Great Vibes;
+    font-size: 60px;
+    font-weight: normal;
+}
+/* 响应式的小钢组成的小按钮 */
+.nav-mobile-button {
+    position: relative;
+    float: right;
+    padding: 7px 9px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: #ffbe00; 
+}
+.nav-mobile-button .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0; 
+}
+.nav-mobile-button .icon-bar {
+    display: block;
+    margin-top: 2px;
+    width: 15px;
+    height: 2px;
+    background: #000;
+    border-radius: 2px; 
+}
+.nav-mobile-button:hover{
+    background-color: #f00; 
+    border: 0;
+}
+.nav-mobile-button:hover .icon-bar{
+    background-color: #fff;
+}
+.section-top-ss{
+    text-shadow: 0 5px 0 rgba(0,0,0,.38);
+    font-size: 50px;
+    color:#fff;
+    font-family: Poppins;
+    font-weight: 700;
+}
+body>.bg-image img{
+    width: 1800px;
+    height: 800px;
+    position: fixed;
+    z-index: -100;
+}
+.mid-title>h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Poppins;
+}
+.mid-title{
+    margin: 0 auto;
+    width: 75%;
+}
+.mid-your-fav>h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Poppins;
+    padding-bottom: 30px;
+}
+.mid-your-fav>div>div>div>h5{
+    margin-top: 20px;
+}
+.mid-your-fav>div>div>div>h5>a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+.mid-your-fav>div>div>div>div:last-child>a{
+    background-color: #272727;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.mid-your-fav>div>div>div>div:last-child>a:hover{
+    background-color: #f00;
+    font-family: "微软雅黑";
+}
+.mid-logo>div:first-child>div>div{
+    border-radius: 50%;
+    border: 3px solid #f1f1f1;
+    box-shadow: 0 11px 0 0 rgba(0, 0, 0, 0.02);
+    width: 155px;
+    height: 155px;
+    position: relative;
+}
+.mid-logo>div:first-child>div>div img{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;    
+    width: 60%;
+    transition: width 0.8s linear;   
+}
+.mid-logo>div:first-child>div>div img:hover{
+    width: 75%;
+    /* transform: scale(1.1); */
+}
+.mid-dc-bottom-div{
+    position: absolute;
+    left: 25px;
+    top: -8px;
+}
+/* your favorite love food img hover big */
+.mid-your-fav>div>div>div>div:first-child>a>img{
+    transition: transform 0.8s;
+}
+.mid-your-fav>div>div>div>div:first-child>a>img:hover{
+    transform: scale(1.1) rotateZ(5deg);
+}
+.min-your-fav2>h2{
+    font-weight: 700;
+    font-family: Poppins;
+    margin-bottom: 0;
+}
+.min-your-fav2>img:first-child{
+    position: absolute;
+    right: 0;
+}
+.min-your-fav2>img:last-child{
+    position: absolute;
+    left: -10%;
+    top: 85%;
+}
+
+.fav2-lun-dian{
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%,-50%);
+    z-index: 1005;    
+}
+.fav2-lun-dian li{
+    width: 0.85rem;
+    height: 0.85rem;
+    background-color: #272727;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: inline-block;
+}
+.fav2-lun-dian li:hover{
+    cursor: pointer;
+    width: 0.9rem;
+    height: 0.9rem;
+}
+.fav2-lun-dian li.active{
+    background-color: red;
+}
+.carousel-ul{
+    width: 1200px;
+    transition: margin-left 1s linear;
+}
+.px--2{
+    padding-left:-20px;
+    padding-right: -20px;
+}
+.fav2-right-left,.fav2-right-right{
+    position: relative;
+    margin-left: 15%; 
+}
+.fav2-right-left p{color: #f00;}
+.fav2-right>ul{
+    padding-bottom: 15px;
+    padding-left:10%;
+    padding-right:10%;
+    border-bottom:1px dashed #ebebeb;
+}
+.fav2-right-left>img{    
+    position: absolute;
+    left: -70%;
+    top:-20%;
+}
+.fav2-right-right>img{
+    position: absolute;
+    left: -40%;
+    top:-10%;
+}
+.fav2-right-btn{
+    margin: 0 auto;
+    margin-top: 5%;
+}
+@media (min-width:992px){
+    .fav2-right-btn{
+        margin-top: 5%;
+        margin-left: 35%;
+    }
+}
+.fav2-right-btn a{
+    font-size: 14px;
+    background: #000 none repeat scroll 0 0;
+    border-radius: 30px;
+    bottom: 10px;
+    color: #fff;
+    display: inline-block;
+    font-family: poppins;
+    font-weight: bold;
+    left: 50%;
+    padding: 15px 40px;
+    text-transform: uppercase;
+}
+.fav2-right-btn a:hover{
+    text-decoration: none;
+    background-color: #f00;
+}
+.easy-order-3{
+    background: url(../images/parallax1.jpg) no-repeat ;
+    background-size: 2048px;
+}
+.easy-order-3>div{
+    background-color: rgba(0%,0%,0%,0.6);
+}
+
+.easy-order-title{
+    margin-top:100px;
+}
+.easy-order-logo{
+    padding-bottom: 100px;
+}
+.easy-order-senction{
+    margin-top: 20px;
+    padding-bottom:10px; 
+    border-bottom: 1px solid #dee2e6;
+}
+.easy-order-senction>div>h4>a{
+    color: #000;
+    font-weight: 700;
+}
+.easy-order-senction>div>h4>a:hover{
+    text-decoration: none;
+    color:#f00;
+}
+.easy-order-senction>div>div>div>h3{
+    font-size: 22px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.easy-order-senction>div{
+    width: 70%;
+}
+.easy-order-senction>div>div>div:last-child>span{
+    font-size: 12px;
+    line-height: 65px;
+    display: inline-block;
+}
+.easy-order-senction>div>div>div:last-child>span:first-child{
+    background: url(../images/jietu/images/tu-logo1.png) no-repeat 0% 50%;
+    width: 45%;
+    text-align: right;
+    margin-right: 10px;
+}
+.easy-order-senction>div>div>div:last-child>span:last-child{
+    text-align: right;
+    background: url(../images/jietu/images/tu-logo2.png) no-repeat 0% 50%;
+    width: 25%;
+}
+.bg-url-gou{
+    background: url(../images/jietu/images/tu-logo1.png) no-repeat 0% 50%;
+}
+.bg-url-car{
+    background: url(../images/jietu/images/tu-logo2.png) no-repeat 0% 50%;
+}
+.chos-you-food{
+    padding: 100px 0;
+}
+
+.nav-pills .nav-link{
+    border-radius: 1.2rem;
+}
+.nav-pills .nav-link.active{
+    border:1px solid #ffbe00;
+    background-color: #ffffff
+
+}
+.feat-rest{
+    padding: 100px 0;
+}
+.feat-rest-down>div>div:last-child>div:first-child{
+    width: 30%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    float: left;
+    padding-right: 1.2rem;
+}
+.feat-rest-down>div>div:last-child>div:last-child{
+    width: 70%;
+    padding-top: 1rem;
+    float: left;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 2rem;
+    box-sizing: border-box;
+
+}
+.feat-rest-down>div>div:last-child>div:last-child>a{
+    color: #000;
+}
+.feat-rest-down>div>div:last-child>div:last-child>a:hover{
+    color:red;
+    text-decoration: none;
+}
+.feat-rest-down>div>div:first-child>img{
+    width: 100%;
+}
+.feat-rest-down-right-4>span:first-child{
+    display: inline-block;
+    padding-left: 25px;
+    margin-right: 20px;
+    background:url(../images/jietu/images/tu-logo1.png) no-repeat 0% 50%;
+    color: #636363;
+}
+.feat-rest-down-right-4>span:last-child{
+    display: inline-block;
+    padding-left: 25px;
+    background:url(../images/jietu/images/tu-logo2.png) no-repeat 0% 50%;
+    color: #636363;
+}
+.feat-rest-down-right-5>span{
+    display: inline-block;
+    padding-left: 25px;
+    background:url(../images/jietu/images/tu-logo3.png) no-repeat 0% 50%;
+}
+.feat-rest-down-btn:hover{background-color: #f00;}
+
+/*esay order 部分的轮播部分*/
+.easy-order-lun{
+    overflow: hidden;
+}
+.easy-order-lun.transition{
+    transition: margin 0.8s linear;
+}
+.easy-order-lun>div{
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.easy-order-lun-button{
+    position: relative;
+    text-align: center;
+}
+.easy-order-lun-button>button{
+    position: absolute;
+    top:180px;
+    z-index: 1010;
+    width: 50px;
+    height: 100px;
+    font-size: 22px;
+    color:#ffbe00;
+    background-color: rgba(200, 200, 200, 0.4);
+    border:0;
+    transition: all 0.2s linear;
+}
+.easy-order-lun-button>button:first-child{
+    transform: translate(-50%,-50%);
+    left: 30px;
+}
+.easy-order-lun-button>button:last-child{
+    transform: translate(50%,-50%);
+    right: 30px;
+}
+.easy-order-lun-button>button:hover{
+    font-size: 26px;
+    width: 60px;
+    height: 110px;
+}
